@@ -1,4 +1,4 @@
-# 1-5 Exercise 2
+# 1-5 Exercise 3
 
 ### The assignment
 Edit the file named "student.py".  
