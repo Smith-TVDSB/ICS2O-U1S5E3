@@ -6,7 +6,7 @@ Write a Python program that takes in a user’s favorite colour, and the number 
 ![](ICS2O-U1S5E3.png)
 
 #### Note 
-You need to input both the number of siblings and favorite colour for the automated grading to work.
+You need to input both the number of siblings and favorite colour for the automated grading to work. The colour is used for the challenge in this section.
 
 
 ## Check your work
