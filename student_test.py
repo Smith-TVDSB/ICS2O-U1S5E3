@@ -19,7 +19,7 @@ def test_default(capsys):
     student.main()
     
     out, err = capsys.readouterr()
-    assert '5' in out and '12' in out and '2' in out and '0' in out
+    assert '5' in out and '12' in out and '2' in out and '1' in out
     
 def test_eight(capsys):
     input_values=['8','blue']
@@ -36,7 +36,7 @@ def test_eight(capsys):
     student.input = mock_input
     student.main()
     out, err = capsys.readouterr()
-    assert '9' in out and '24' in out and '4' in out and '0' in out
+    assert '9' in out and '24' in out and '4' in out and '1' in out
 
     
 def test_eight(capsys):
@@ -54,4 +54,4 @@ def test_eight(capsys):
     student.input = mock_input
     student.main()
     out, err = capsys.readouterr()
-    assert '8' in out and '21' in out and '3' in out and '1' in out
+    assert '8' in out and '21' in out and '4' in out and '0' in out
